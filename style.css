@@ -45,16 +45,19 @@ h2 {
 
 .button {
     display: inline-block;
-    border: 5px solid black;
-
+    background: transparent; /* no fill */
+    border: 3px solid #000;
     border-radius: 5px;
-    color: black;
+    color: #000000;
     text-decoration: none;
     padding: 12px 20px;
+    transition: all 0.3s ease;
 }
 
 .button:hover {
     background: #3600ff;
+    border-color: #3600ff;
+    color: #000000; /* white text for contrast */
 }
 
 ul {
