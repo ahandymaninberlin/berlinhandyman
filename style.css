@@ -11,8 +11,16 @@ body {
 header {
     background: #fbed52;
     color: #000000;
-    text-align: center;
-    padding: 400px 20px;
+
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -20,8 +28,7 @@ header {
     width: 100%;
     max-width: 1200px;
     height: auto;
-    padding: 180px x 20 px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
