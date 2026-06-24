@@ -45,7 +45,9 @@ h2 {
 
 .button {
     display: inline-block;
-    background: #000000;
+    border: 5px black;
+    background: none;
+    border-radius: 5px;
     color: white;
     text-decoration: none;
     padding: 12px 20px;
