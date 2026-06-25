@@ -158,8 +158,7 @@ Neukölln • Kreuzberg • Mitte • Charlottenburg • Prenzlauer Berg  • Be
 
 </section>
 
-    
-<section class="contact-section">
+  <section class="contact-section">
 
     <h2>Contact</h2>
 
@@ -185,26 +184,25 @@ Neukölln • Kreuzberg • Mitte • Charlottenburg • Prenzlauer Berg  • Be
 
         </div>
 
-        <!-- RIGHT SIDE -->
-        <form class="contact-form">
+        <!-- RIGHT SIDE FORM -->
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
 
             <div class="name-row">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
+                <input type="text" name="first_name" placeholder="First Name" required>
+                <input type="text" name="last_name" placeholder="Last Name" required>
             </div>
 
-            <input type="email" placeholder="Email">
+            <input type="email" name="email" placeholder="Email" required>
 
-            <textarea placeholder="Message"></textarea>
+            <textarea name="message" placeholder="Message" required></textarea>
 
-            <button type="submit">Send</button>
+            <button type="submit">Send Message</button>
 
         </form>
 
     </div>
 
 </section>
-
 <footer>
 
 <p>
