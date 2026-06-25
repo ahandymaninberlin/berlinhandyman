@@ -120,7 +120,43 @@ header {
     margin: 20px auto;
     text-align: center;
 }
+/* REVIEWS */
 
+.reviews-section {
+    background: #fbed52;
+}
+
+.reviews-grid {
+    width: 100%;
+    max-width: 1200px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-top: 40px;
+}
+
+.review {
+    padding: 0 40px;
+}
+
+.review:not(:last-child) {
+    border-right: 5px solid #000;
+}
+
+.review h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.stars {
+    margin-bottom: 20px;
+}
+
+.stars img {
+    width: 120px; /* adjust to fit your star graphic */
+    height: auto;
+}
 /* FOOTER */
 footer {
     background: #f4f4f4;
