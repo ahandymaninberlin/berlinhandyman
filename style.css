@@ -70,33 +70,32 @@ header {
         height: auto;
     }
 
- .contact-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-}
-
-/* force left side (contact info) on top */
-.contact-info {
-    grid-row: 1;
-    align-items: center;
-    text-align: center;
-}
-
-/* force right side (form) below */
-.contact-form {
-    grid-row: 2;
-}
-
-/* center icons on mobile */
-.contact-icons {
-    justify-content: center;
-}
-
-    .name-row{
-        flex-direction:column;
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
     }
 
+    .contact-info {
+        grid-row: 1;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-form {
+        grid-row: 2;
+    }
+
+    .contact-icons {
+        justify-content: center;
+    }
+
+    .name-row {
+        flex-direction: column;
+    }
+
+    /* REVIEWS MOBILE FIX */
     .reviews-grid {
+        flex-direction: column;
         max-width: 100%;
         padding: 0 10px;
         gap: 15px;
@@ -163,7 +162,7 @@ header {
     text-align: center;
 }
 
-/* REVIEWS — GOOGLE STYLE CARDS */
+/* REVIEWS — FIXED CLEAN VERSION */
 .reviews-section {
     background: #fbed52;
 }
@@ -174,19 +173,22 @@ header {
     height: auto;
 }
 
+/* DESKTOP: 3 CARDS */
 .reviews-grid {
     width: 100%;
-    max-width: 900px;
+    max-width: 1200px;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 20px;
 
     margin-top: 40px;
-    gap: 20px;
 }
 
-/* CARD STYLE */
+/* REVIEW CARD */
 .review {
+    flex: 1;
+
     background: #fff;
     padding: 25px 30px;
     border-radius: 12px;
@@ -194,10 +196,6 @@ header {
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 
     text-align: left;
-}
-
-.review:not(:last-child) {
-    border-right: none;
 }
 
 .review h3 {
