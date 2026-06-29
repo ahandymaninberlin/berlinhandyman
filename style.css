@@ -70,52 +70,31 @@ header {
         height: auto;
     }
 
-.contact-grid{
-    grid-template-columns:1fr;
-    gap:40px;
-}
-
-.contact-info{
-    align-items:center;
-    text-align:center;
-}
-
-.contact-icons{
-    justify-content:center;
-}
-
-.name-row{
-    flex-direction:column;
-}
-
-}
-    .reviews-section {
-        background: #fbed52;
-        min-height: auto;
-        padding: 80px 20px;
+    .contact-grid{
+        grid-template-columns:1fr;
+        gap:40px;
     }
 
+    .contact-info{
+        align-items:center;
+        text-align:center;
+    }
+
+    .contact-icons{
+        justify-content:center;
+    }
+
+    .name-row{
+        flex-direction:column;
+    }
+
+    /* ✅ CLEAN REVIEWS MOBILE */
     .reviews-grid {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        max-width: 500px;
-        margin-top: 40px;
+        grid-template-columns: 1fr;
     }
 
     .review {
         padding: 30px 10px;
-        border-right: none !important;
-        border-left: none;
-    }
-
-    .review:not(:last-child) {
-        border-right: none !important;
-        border-bottom: 5px solid #000;
-    }
-
-    .review:last-child {
-        border-bottom: none;
     }
 }
 
@@ -174,10 +153,11 @@ header {
     margin: 20px auto;
     text-align: center;
 }
-/* REVIEWS */
 
+/* REVIEWS (CLEAN VERSION) */
 .reviews-section {
     background: #fbed52;
+    padding: 80px 20px;
 }
 
 .image1 {
@@ -197,9 +177,10 @@ header {
 }
 
 .review {
-    padding: 0 40px;
+    padding: 30px 40px;
 }
 
+/* clean vertical separators only on desktop */
 .review:not(:last-child) {
     border-right: 5px solid #000;
 }
@@ -214,9 +195,10 @@ header {
 }
 
 .stars img {
-    width: 120px; /* adjust to fit your star graphic */
+    width: 120px;
     height: auto;
 }
+
 .contact-section {
     background: #fff;
 }
@@ -236,9 +218,9 @@ header {
 .contact-info {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* KEY FIX */
+    align-items: flex-start;
     gap: 10px;
-    text-align: center; /* KEY FIX */
+    text-align: center;
 }
 
 .contact-email,
