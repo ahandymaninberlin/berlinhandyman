@@ -232,13 +232,13 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 18px;
-    margin-top: 10px;
+    gap: 30px;
+    margin-top: 30px;
 }
 
 .contact-icons img {
-    width: 59,72px;
-    height: 46,41px;
+    width: 60px;
+    height: auto;
     object-fit: contain;
     display: block;
     flex-shrink: 0;
