@@ -126,7 +126,7 @@ header {
         max-width: 350px;
         height: auto;
     }
-    .contact-grid {
+   .contact-grid {
         grid-template-columns: 1fr;
         gap: 40px;
         width: 100%;
@@ -141,8 +141,6 @@ header {
     .contact-form {
         grid-row: 2;
         width: 100%;
-        max-width: 500px;
-        margin: 0 auto;
     }
 
     .contact-form input,
