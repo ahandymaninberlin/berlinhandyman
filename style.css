@@ -155,6 +155,15 @@ header {
     .reviews-section {
         padding-bottom: 100px;
     }
+
+    .reviews-section .reviews-grid {
+    flex-direction: column;
+}
+
+.reviews-section .review {
+    width: 100%;
+}
+    
 /* sticky nav mobile fix */
     .sticky-nav {
     justify-content: flex-start;
