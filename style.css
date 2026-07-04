@@ -196,7 +196,7 @@ header {
     gap: 18px;
 
     padding: 12px 15px;
-
+    padding-right: 60px;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -214,6 +214,8 @@ header {
         margin-right: 25px;
     }
 }
+
+
 
 /* BUTTON */
 .button {
