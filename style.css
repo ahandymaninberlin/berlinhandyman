@@ -126,10 +126,10 @@ header {
         max-width: 350px;
         height: auto;
     }
-
     .contact-grid {
         grid-template-columns: 1fr;
         gap: 40px;
+        width: 100%;
     }
 
     .contact-info {
@@ -140,6 +140,15 @@ header {
 
     .contact-form {
         grid-row: 2;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .contact-icons {
@@ -149,7 +158,6 @@ header {
     .name-row {
         flex-direction: column;
     }
-
     /* REVIEWS MOBILE FIX */
     .reviews-grid {
         flex-direction: column;
