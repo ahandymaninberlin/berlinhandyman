@@ -100,7 +100,7 @@ header {
     margin: 20px auto;
 }
 
-/* MOBILE */
+                                                                 /* MOBILE */
 @media (max-width: 768px) {
 
     header {
@@ -163,7 +163,11 @@ header {
 
 .reviews-section .review {
     width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
 }
+
+
     
 /* sticky nav mobile fix */
     .sticky-nav {
@@ -188,6 +192,11 @@ header {
     flex: 0 0 auto;
     font-size: 0.9rem;
 }
+}
+
+.sticky-nav a:last-child {
+        margin-right: 25px;
+    }
 }
 
 /* BUTTON */
