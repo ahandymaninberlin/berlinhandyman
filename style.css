@@ -157,6 +157,7 @@ header {
     }
 
     .reviews-section .reviews-grid {
+    display: flex;
     flex-direction: column;
 }
 
