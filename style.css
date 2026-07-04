@@ -18,6 +18,16 @@ body {
 section {
     scroll-margin-top: 70px;
 }
+
+h1,
+.hero-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
 .sticky-nav {
     position: fixed;
     top: 0;
