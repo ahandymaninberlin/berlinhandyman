@@ -458,3 +458,8 @@ footer {
         gap: 15px;
     }
 }
+
+
+* {
+    outline: 1px solid red;
+}
