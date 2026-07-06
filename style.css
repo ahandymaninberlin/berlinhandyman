@@ -156,35 +156,30 @@ header {
     .name-row {
         flex-direction: column;
     }
-                            /* REVIEWS MOBILE FIX */
-    .reviews-grid {
-        flex-direction: column;
-        max-width: 100%;
-        padding: 0 10px;
-        gap: 15px;
-    }
+                         /* REVIEWS MOBILE FIX */
+.reviews-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    .review {
-        padding: 20px 15px;
-    }
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    gap: 20px;
+    box-sizing: border-box;
+}
 
-    .reviews-section {
-        padding-bottom: 100px;
-    }
+.review {
+    width: calc(100% - 30px);
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
 
-    .reviews-section .reviews-grid {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .reviews-section .review {
-        width: 100%;
-        max-width: 360px;
-        margin: 0 auto;
-        box-sizing: border-box;
-    }
-
+.reviews-section {
+    padding-bottom: 100px;
+}
     
 /* sticky nav mobile fix */
     .sticky-nav {
