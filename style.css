@@ -193,7 +193,7 @@ header {
         box-sizing: border-box;
     }
     
-/* sticky nav mobile fix */
+                                                                    /* sticky nav mobile fix */
     .sticky-nav {
     justify-content: flex-start;
     overflow-x: auto;
@@ -222,15 +222,23 @@ header {
         margin-right: 25px;
     }
 
-    .services-areas {
+                                                                      /* services mobile fix */
+    
+  .services-areas {
     min-height: auto;
     padding: 60px 20px;
     scroll-snap-align: none;
 }
 
 .services-grid {
+    display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
+    width: 100%;
+}
+
+.services-column {
+    width: 100%;
 }
 
 .services-column p {
