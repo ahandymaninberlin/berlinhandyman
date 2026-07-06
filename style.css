@@ -166,6 +166,7 @@ header {
 
     .review {
         padding: 20px 15px;
+        flex: 0 0 auto;  
     }
 
     .reviews-section {
