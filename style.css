@@ -288,15 +288,15 @@ header {
 
 .services-areas {
     background: #fbed52;
-    padding: 80px 20px;
+    padding: 100px 20px;
 }
 
 .services-text,
 .areas-text {
     max-width: 850px;
     margin: 20px auto;
-    font-size: 1.1rem;
-    line-height: 1.7;
+    font-size: 0.9rem;
+    line-height: 1.4;
 }
 
 /* REVIEWS */
