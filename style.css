@@ -221,6 +221,21 @@ header {
 .sticky-nav a:last-child {
         margin-right: 25px;
     }
+
+    .services-areas {
+    min-height: auto;
+    padding: 60px 20px;
+}
+
+.services-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.services-column p {
+    max-width: 100%;
+    font-size: 1rem;
+}
 }
 
 
@@ -285,18 +300,35 @@ header {
     margin: 20px auto;
     text-align: center;
 }
-
 .services-areas {
     background: #fbed52;
-    padding: 100px 20px;
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 20px;
+    box-sizing: border-box;
 }
 
-.services-text,
-.areas-text {
-    max-width: 850px;
+.services-grid {
+    width: 100%;
+    max-width: 1000px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 60px;
+    margin: 30px auto 0;
+}
+
+.services-column {
+    text-align: center;
+}
+
+.services-column p {
+    max-width: 450px;
     margin: 20px auto;
-    font-size: 0.9rem;
-    line-height: 1.4;
+
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 /* REVIEWS */
