@@ -312,20 +312,10 @@ header {
 .services-areas {
     background: #fbed52;
     width: 100%;
-    min-height: 100vh;
-    padding: 80px 20px;
+    min-height: auto;
+    padding: 60px 20px;
     box-sizing: border-box;
-}
-
-.services-grid {
-    width: 100%;
-    max-width: 1000px;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    gap: 60px;
-    margin: 30px auto 0;
+    scroll-snap-align: none;
 }
 
 .services-column {
@@ -338,6 +328,12 @@ header {
 
     font-size: 1rem;
     line-height: 1.8;
+}
+
+
+.services-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
 }
 
 /* REVIEWS */
