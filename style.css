@@ -225,6 +225,7 @@ header {
     .services-areas {
     min-height: auto;
     padding: 60px 20px;
+    scroll-snap-align: none;
 }
 
 .services-grid {
