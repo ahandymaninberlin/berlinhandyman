@@ -28,6 +28,13 @@ h1,
     margin: 20px auto;
 }
 
+h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+}
 .sticky-nav {
     position: fixed;
     top: 0;
@@ -277,6 +284,19 @@ header {
     max-width: 700px;
     margin: 20px auto;
     text-align: center;
+}
+
+.services-areas {
+    background: #fbed52;
+    padding: 80px 20px;
+}
+
+.services-text,
+.areas-text {
+    max-width: 850px;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    line-height: 1.7;
 }
 
 /* REVIEWS */
