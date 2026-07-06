@@ -156,30 +156,34 @@ header {
     .name-row {
         flex-direction: column;
     }
-                         /* REVIEWS MOBILE FIX */
+                                                 /* REVIEWS MOBILE FIX */
 .reviews-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 0 10px;
+        gap: 15px;
+    }
 
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
-    gap: 20px;
-    box-sizing: border-box;
-}
+    .review {
+        padding: 20px 15px;
+    }
 
-.review {
-    width: calc(100% - 30px);
-    max-width: 360px;
-    margin: 0 auto;
-    padding: 20px 15px;
-    box-sizing: border-box;
-}
+    .reviews-section {
+        padding-bottom: 100px;
+    }
 
-.reviews-section {
-    padding-bottom: 100px;
-}
+    .reviews-section .reviews-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews-section .review {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
     
 /* sticky nav mobile fix */
     .sticky-nav {
@@ -297,7 +301,7 @@ header {
     padding: 25px 30px;
 
     border-radius: 0;
-    box-shadow: 6px 6px 0 #000;
+    box-shadow: 2px 2px 0 #000;
 
     text-align: left;
 }
