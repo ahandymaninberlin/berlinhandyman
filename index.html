@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18267851831"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-18267851831');
+    <script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-8488349272/ZJ5BCN-V-6sYENiHytop',
+      'event_callback': callback
+  });
+  return false;
+}
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,8 +46,15 @@ Painting • Furniture Assembly • Custom-Made Furniture • Wall Mounting • 
 <a class="button"
    href="https://wa.me/491628662241"
    target="_blank"
+    onclick="return gtag_report_conversion('https://wa.me/491628662241');">
    rel="noopener noreferrer">
     GET A QUOTE ON WHATSAPP
+</a>
+
+    <a href="https://wa.me/491628662241"
+   class="hero-button"
+   onclick="return gtag_report_conversion('https://wa.me/491628662241');">
+  Chat on WhatsApp
 </a>
 
 </header>
